@@ -1,0 +1,12 @@
+Re 10
+delta_t 1.0e-3
+T 10.0
+T_ramp 1.0
+N_interval 1000
+epsilon 1e-4
+max_corrections 100
+relaxation 0.5
+mesh ../mesh.txt
+boundary ../boundary.txt
+outfile result.%03d.%05d.vtk
+tmpfile %05d.restart.dat

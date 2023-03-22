@@ -1,0 +1,10 @@
+Re 10
+delta_t 1.0e-3
+T 2.0
+T_ramp 1.0
+N_interval 50
+epsilon 1.0e-4
+max_corrections 100
+mesh testdata/cfdprocdata/mesh1.txt
+boundary testdata/cfdprocdata/boundary.txt
+outfile output/result.%02d.%03d.vtk
